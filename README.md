@@ -1,13 +1,15 @@
 # Fast LX16A Control Code
 ## How to run
 Before running the program for the first time:
+
 Please compile lx16a.c to .so file first!
+
 You can use the command as:  gcc -g -o lx16a.so -shared -fPIC lx16a.c
-The name of lx16a.so can be changed as you like, remember to
-modify the value 'lib'.
+
+The name of lx16a.so can be changed as you like, remember to modify the value 'lib'.
 If you don't modify lx16a.c and lx16a.h, there's no need to compile any more.
 
-Also highly recommend the user to read the protocol file of the servo motor
+It is also highly recommended for the user to read the protocol file of the servo motor
 very carefully before using this code.
 
 ## Class Instruction:
